@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Personal Profile</title>
+</head>
+<body>
+
+    <!-- Main Heading -->
+    <h1>Welcome to My Personal Profile</h1>
+
+    <!-- Paragraph -->
+    <p>Hello! I am Senrthilraj, an Electrical and Electronics Engineering student at SNS College of Technology, Tiruppur.</p>
+
+    <!-- Image -->
+    <img src="myphoto.jpg" alt="My Profile Photo" width="200" height="250">
+
+    <!-- Subheading -->
+    <h2>My Hobbies</h2>
+    <!-- Unordered List -->
+    <ul>
+       <li>Reading tech blogs</li>
+        <li>Working on embedded projects</li>
+        <li>Learning programming languages</li>
+        <li>Watching EV innovations</li>
+    </ul>
+
+    <!-- Subheading -->
+    <h2>My Favorite Websites</h2>
+
+    <!-- Ordered List with Links -->
+    <ol>
+        <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+        <li><a href="https://www.geeksforgeeks.org" target="_blank">GeeksforGeeks</a></li>
+        <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+    </ol>
+
+    <!-- Footer -->
+    <p>Thank you for visiting my profile page!</p>
+
+</body>
+</html>
