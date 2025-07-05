@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Animated Navigation Bar</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f0f0;
+    }
+
+    nav {
+      background-color: #0077b6;
+      padding: 10px 0;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar li {
+      margin: 0 20px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      padding: 8px 12px;
+      position: relative;
+      transition: color 0.3s;
+    }
+
+    .navbar a::after {
+      content: '';
+      position: absolute;
+      width: 0%;
+      height: 3px;
+      background: #90e0ef;
+      left: 0;
+      bottom: 0;
+      transition: width 0.3s;
+    }
+
+    .navbar a:hover::after {
+      width: 100%;
+    }
+
+    .navbar a:hover {
+      color: #caf0f8;
+    }
+
+    /* Optional: Active link style */
+    .navbar a.active {
+      color: #ffd60a;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .navbar {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .navbar li {
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul class="navbar">
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+</body>
+</html>
